@@ -1,44 +1,75 @@
-# Pixel-Dash
-A game for ChromeOS and web
+# Pixel Dash
 
-Écriture
+[🇫🇷 Français](#français) · [🇬🇧 English](#english)
 
-**🎮 PIXEL DASH ON CHROMEBOOK**
+## Français
 
-**🇬🇧 EN**
+**Pixel Dash** est un jeu de plateforme en pixel art, jouable dans un navigateur sur le Web et ChromeOS. Le jeu est écrit en HTML, CSS et JavaScript, sans bibliothèque externe.
 
-**Option 1: Play instantly (no installation)**
+### Jouer
 
-1. Extract the ZIP folder.
-2. Open Files, right-click `index.html`, then select "Open with Chrome".
+- **En ligne :** ouvrez [Pixel Dash](https://bluex155.github.io/Pixel-Dash/) si GitHub Pages est activé pour ce dépôt.
+- **Sur votre ordinateur :** téléchargez ou clonez le dépôt, puis ouvrez [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html) dans un navigateur récent.
+- Le fichier [`index.html`](index.html) sert de page d’entrée et redirige vers le jeu, notamment pour l’hébergement statique.
 
-The game works offline. Multiplayer works over the same Wi-Fi network.
+### Commandes
 
-**Option 2: Install as an app**
+| Action | Touches |
+| --- | --- |
+| Se déplacer | Flèches ou WASD |
+| Sauter | Espace, Z, C ou K |
+| Dash | X, Maj ou L |
+| Mettre en pause | Échap ou P |
+| Recommencer la salle | R |
+| Activer/désactiver le son | M |
 
-1. Upload the folder to free hosting such as Netlify Drop or GitHub Pages.
-2. Open the website in Chrome (HTTPS required).
-3. Menu ⋮ \> "Install Pixel Dash".
+Le jeu propose aussi un éditeur de niveaux intégré. Les niveaux et chapitres créés peuvent être partagés avec leurs codes depuis le jeu.
 
-_⚠️ Offline features require installation through HTTPS. They won't work when opening the file directly._
+### Modifier le jeu
 
----
+Le jeu se trouve principalement dans [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html) : le HTML, le CSS et le JavaScript y sont réunis. Vous pouvez modifier ce fichier, créer vos propres niveaux et expérimenter avec le code.
 
-**🎮 PIXEL DASH SUR CHROMEBOOK**
+Pour proposer une amélioration ou un ajout :
 
-**🇫🇷 FR**
+1. Faites un fork du dépôt et créez une branche pour votre changement.
+2. Modifiez le jeu et vérifiez-le dans un navigateur.
+3. Ouvrez une Pull Request en expliquant ce qui a changé et comment le tester.
 
-**Option 1 : Jouer tout de suite (sans installation)**
+Les petites corrections et les nouvelles idées sont les bienvenues. Pour discuter d’un changement avant de le réaliser, ouvrez une issue. Consultez [`CONTRIBUTING.md`](CONTRIBUTING.md) pour plus de détails.
 
-1. Dézippe le dossier.
-2. Ouvre Fichiers, fais un clic droit sur `index.html`, puis « Ouvrir avec Chrome ».
+### Licence
 
-Le jeu fonctionne hors ligne. Le multijoueur marche sur le même Wi-Fi.
+Le code est publié sous licence MIT. Vous pouvez l’utiliser, le modifier et le redistribuer, sous réserve de conserver l’avis de droit d’auteur et le texte de la licence. Voir [`LICENSE`](LICENSE).
 
-**Option 2 : Installer comme une appli**
+## English
 
-1. Héberge gratuitement le dossier sur Netlify Drop ou GitHub Pages.
-2. Ouvre le site avec Chrome (adresse HTTPS obligatoire).
-3. Menu ⋮ \> « Installer Pixel Dash ».
+**Pixel Dash** is a pixel-art platform game for modern web browsers and ChromeOS. It is built with HTML, CSS, and JavaScript, with no external libraries.
 
-_⚠️ Les fonctionnalités hors ligne nécessitent une installation via HTTPS. Elles ne fonctionnent pas en ouvrant directement le fichier._
+### Play
+
+- **Online:** open [Pixel Dash](https://bluex155.github.io/Pixel-Dash/) if GitHub Pages is enabled for this repository.
+- **Locally:** download or clone the repository, then open [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html) in a modern browser.
+- [`index.html`](index.html) is the site entry point and redirects to the game, including when hosted as a static site.
+
+### Controls
+
+| Action | Keys |
+| --- | --- |
+| Move | Arrow keys or WASD |
+| Jump | Space, Z, C, or K |
+| Dash | X, Shift, or L |
+| Pause | Escape or P |
+| Restart room | R |
+| Toggle sound | M |
+
+The game also includes a built-in level editor. Levels and chapters can be shared using codes generated in the game.
+
+### Modify and contribute
+
+The game is primarily in [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html), with its HTML, CSS, and JavaScript together in one file. Feel free to experiment, change the code, or build your own levels.
+
+To propose an improvement, fork the repository, make and test your change, then open a Pull Request describing it. Issues are welcome for bug reports, questions, and feature ideas. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
+
+### License
+
+The project is released under the MIT License. You may use, modify, and redistribute it, provided you retain the copyright and license notices. See [`LICENSE`](LICENSE).
