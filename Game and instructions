@@ -1,0 +1,93 @@
+🎮 PIXEL DASH
+
+🇬🇧 EN
+
+A 2D pixel-art platformer inspired by Celeste. You play as a little mountaineer climbing a mountain to reach the summit his grandfather used to tell him about.
+
+How to Play
+
+Open index.html in your browser. No installation required. The game works offline.
+
+Features
+
+Room-based campaign: Over 70 rooms across 13 chapters. Each room introduces a new mechanic or combination of mechanics.
+Responsive movement: Running, variable-height jumping, double jump, wall jump, eight-direction dash, wall grabbing and climbing.
+Level elements: Spikes, springs (up, down and sideways), air currents, ice, moving platforms, crumbling and falling platforms, blinking blocks and lasers.
+Gem doors: Some exits remain locked until you collect enough gems.
+Mini-movie: Tom's story told through 20 scenes.
+Characters: Six mountaineers, each with their own trail (hair, ribbon, flame, snow, pixels and rainbow).
+Level editor: Create your own levels and chapters, then share them using short codes (PD2: for a level, PC2: for a chapter).
+Library: Locally save your levels and chapters, and import shared codes.
+Local multiplayer: Play with a friend over the same Wi-Fi using WebRTC and copy-paste codes. No server required.
+Languages: English (default) and French, switchable using flags.
+Update log: Displays changes with each new version.
+
+Controls
+
+Action	Keyboard
+Move	Arrow keys or WASD
+Jump	Space, Z, C or K
+Dash	X, Shift or L
+Pause	Escape or P
+Restart room	R
+Sound	M
+
+Structure
+
+pixel-dash-v7.html: The complete game in a single file.
+pixel-dash-web/: Hosting-ready version with a manifest and service worker (installable on Chromebook).
+
+Technical
+
+Built entirely with JavaScript, HTML and Canvas, without external libraries. Physics runs at a fixed 1/60-second timestep. Rooms are described using ASCII text, making them easy to share.
+
+Credits
+
+Designed and developed by [your name]. Inspired by Celeste (Maddy Thorson and Noel Berry), without reusing its code or graphics.
+
+🎮 PIXEL DASH
+
+🇫🇷 FR
+
+Un jeu de plateforme 2D en pixel art, inspiré de Celeste. Tu incarnes un petit alpiniste qui grimpe une montagne pour retrouver le sommet que son grand-père lui décrivait.
+
+Jouer
+
+Ouvre index.html dans ton navigateur. Aucune installation n'est nécessaire. Le jeu fonctionne hors ligne.
+
+Fonctionnalités
+
+Campagne en salles reliées : Plus de 70 salles réparties en 13 chapitres. Chaque salle introduit une mécanique ou une combinaison de mécaniques.
+Mouvements réactifs : Course, saut variable, double saut, saut mural, dash dans huit directions, accroche et escalade des murs.
+Éléments de niveau : Pointes, ressorts (haut, bas, latéraux), courants d'air, glace, plateformes mobiles, plateformes qui s'effritent ou tombent, blocs clignotants et lasers.
+Portes à gemmes : Certaines sorties restent fermées tant que tu n'as pas ramassé assez de gemmes.
+Mini-film : L'histoire de Tom, racontée en vingt scènes.
+Personnages : Six alpinistes, chacun avec sa propre traînée (cheveux, ruban, flamme, neige, pixels, arc-en-ciel).
+Créateur de niveaux : Dessine tes propres niveaux et chapitres, puis partage-les avec un code court (PD2 : pour un niveau, PC2 : pour un chapitre).
+Bibliothèque : Sauvegarde locale de tes niveaux et chapitres, et import de codes reçus.
+Multijoueur local : Joue à deux sur le même Wi-Fi grâce à WebRTC et à des codes à copier-coller. Aucun serveur n'est nécessaire.
+Langues : Anglais (par défaut) et français, avec bascule par drapeaux.
+Journal des nouveautés : Affiche les changements à chaque nouvelle version.
+
+Commandes
+
+Action	Clavier
+Bouger	Flèches ou WASD
+Sauter	Espace, Z, C ou K
+Dash	X, Maj ou L
+Pause	Échap ou P
+Redémarrer la salle	R
+Son	M
+
+Structure
+
+pixel-dash-v7.html : Le jeu complet, en un seul fichier.
+pixel-dash-web/ : Version prête à héberger, avec manifeste et service worker (installable sur Chromebook).
+
+Technique
+
+Tout est écrit en JavaScript, HTML et Canvas, sans bibliothèque externe. La physique tourne à pas fixe de 1/60 s. Les salles sont décrites en texte ASCII, ce qui permet de les partager facilement.
+
+Crédits
+
+Conçu et développé par [ton nom]. Inspiré de Celeste (Maddy Thorson et Noel Berry), sans reprise de son code ni de ses graphismes.
